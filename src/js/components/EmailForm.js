@@ -15,33 +15,32 @@ const EmailForm = props => {
   const [data, setData] = useState({
     files: [],
     "from.email": {
-      value: "ashur.agabalazada@gmail.com",
+      value: "",
       type: "email",
       isRequired: true
     },
     "from.name": {
-      value: "Ashur",
+      value: "",
       type: "text",
       isRequired: true
     },
     "to.name": {
-      value: "Timur",
+      value: "",
       type: "text",
       isRequired: true
     },
     "to.email": {
-      value: "timur@gmail.com",
+      value: "",
       type: "email",
       isRequired: true
     },
     subject: {
-      value:
-        "Тема письма, которая не поместится в эту строку, потому что мне так нужно",
+      value: "",
       type: "text",
       isRequired: true
     },
     message: {
-      value: "test",
+      value: "",
       type: "text",
       isRequired: true
     }
