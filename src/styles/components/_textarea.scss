@@ -1,0 +1,13 @@
+.textarea {
+  &-mb {
+    margin-bottom: 10px;
+  }
+  &__label {
+    display: block;
+    color: $text-secondary;
+    margin-bottom: 5px;
+  }
+  &__textarea {
+    width: 100%;
+  }
+}

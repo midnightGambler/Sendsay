@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component properly 1`] = `
+<div
+  className="logo logo-mb"
+>
+  <div
+    className="logo__ellipse logo__ellipse-mr"
+  />
+  <div
+    className="logo__rectangle logo__rectangle-mr"
+  />
+  <div
+    className="logo__ellipse"
+  />
+  <div
+    className="logo__rectangle-flip"
+  >
+    <div
+      className="logo__rectangle-flip--inner"
+    />
+  </div>
+</div>
+`;
