@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`renders Button correctly 1`] = `
-<button
-  className="btn "
->
-  Кнопушка
-</button>
-`;
