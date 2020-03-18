@@ -1,0 +1,15 @@
+.svg {
+  &-link {
+    path {
+      fill: $link-color;
+    }
+  }
+  &-error {
+    path {
+      fill: $text-error;
+    }
+  }
+  &-mr {
+    margin-right: 5px;
+  }
+}

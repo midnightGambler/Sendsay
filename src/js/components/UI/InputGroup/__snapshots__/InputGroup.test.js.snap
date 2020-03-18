@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component properly 1`] = `
+<div
+  className="input-group input-group-mb"
+>
+  <label
+    className="input-group__label"
+  >
+    test
+  </label>
+  <div
+    className="input-group__inputs"
+  >
+    <div
+      className="input-group__inner-wrapper"
+      key="0"
+    >
+      <input
+        className="input-group__inner-wrapper__input"
+        name="test"
+      />
+    </div>
+    <div
+      className="input-group__inner-wrapper"
+      key="1"
+    >
+      <input
+        className="input-group__inner-wrapper__input"
+        name="anotherTest"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render component with error fields 1`] = `
+<div
+  className="input-group input-group-mb"
+>
+  <label
+    className="input-group__label"
+  >
+    test
+  </label>
+  <div
+    className="input-group__inputs"
+  >
+    <div
+      className="input-group__inner-wrapper"
+      key="0"
+    >
+      <input
+        className="input-group__inner-wrapper__input"
+      />
+      <span
+        className="input-error"
+      >
+        test
+      </span>
+    </div>
+    <div
+      className="input-group__inner-wrapper"
+      key="1"
+    >
+      <input
+        className="input-group__inner-wrapper__input"
+      />
+      <span
+        className="input-error"
+      >
+        another test
+      </span>
+    </div>
+  </div>
+</div>
+`;

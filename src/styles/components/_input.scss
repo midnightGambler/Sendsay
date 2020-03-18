@@ -1,0 +1,14 @@
+.input {
+  &__label {
+    display: block;
+    color: $text-secondary;
+    margin-bottom: 5px;
+  }
+  &-mb {
+    margin-bottom: 20px;
+  }
+  &__input {
+    width: 100%;
+    font-size: $fs;
+  }
+}
