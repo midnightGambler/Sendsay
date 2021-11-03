@@ -41,7 +41,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "sendsay-api": "^2.4.0",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "jest": {
     "setupFilesAfterEnv": [
